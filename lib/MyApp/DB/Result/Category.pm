@@ -1,12 +1,12 @@
 use utf8;
-package MyApp::DB::Result::Article;
+package MyApp::DB::Result::Category;
 
 # Created by DBIx::Class::Schema::Loader
 # DO NOT MODIFY THE FIRST PART OF THIS FILE
 
 =head1 NAME
 
-MyApp::DB::Result::Article
+MyApp::DB::Result::Category
 
 =cut
 
@@ -27,11 +27,11 @@ use base 'DBIx::Class::Core';
 
 __PACKAGE__->load_components("InflateColumn::DateTime");
 
-=head1 TABLE: C<article>
+=head1 TABLE: C<category>
 
 =cut
 
-__PACKAGE__->table("article");
+__PACKAGE__->table("category");
 
 =head1 ACCESSORS
 
@@ -41,26 +41,18 @@ __PACKAGE__->table("article");
   is_auto_increment: 1
   is_nullable: 0
 
-=head2 title
+=head2 description
 
   data_type: 'text'
   is_nullable: 1
-
-=head2 some_date
-
-  data_type: 'int'
-  default_value: 0
-  is_nullable: 0
 
 =cut
 
 __PACKAGE__->add_columns(
   "id",
   { data_type => "integer", is_auto_increment => 1, is_nullable => 0 },
-  "title",
+  "description",
   { data_type => "text", is_nullable => 1 },
-  "some_date",
-  { data_type => "int", default_value => 0, is_nullable => 0 },
 );
 
 =head1 PRIMARY KEY
@@ -88,32 +80,15 @@ Related object: L<MyApp::DB::Result::ArticleCategory>
 __PACKAGE__->has_many(
   "article_categories",
   "MyApp::DB::Result::ArticleCategory",
-  { "foreign.article_id" => "self.id" },
-  { cascade_copy => 0, cascade_delete => 0 },
-);
-
-=head2 article_sections
-
-Type: has_many
-
-Related object: L<MyApp::DB::Result::ArticleSection>
-
-=cut
-
-__PACKAGE__->has_many(
-  "article_sections",
-  "MyApp::DB::Result::ArticleSection",
-  { "foreign.article_id" => "self.id" },
+  { "foreign.category_id" => "self.id" },
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
 
 # Created by DBIx::Class::Schema::Loader v0.07014 @ 2011-12-16 13:35:55
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:2NycOGcUKk9RbV/gNWnwfQ
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:SUcJAC+enTeL/rlpUsEEZw
 
-__PACKAGE__->many_to_many( sections => "article_sections", "section" );
-__PACKAGE__->add_columns( "some_date" => { data_type => "datetime", is_nullable => 0 },);
-__PACKAGE__->many_to_many( qw/categories article_categories category/ );
+__PACKAGE__->many_to_many(qw/articles article_categories article/);
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 1;
