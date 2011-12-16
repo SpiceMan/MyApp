@@ -156,6 +156,12 @@ sub lookup_options
    return unless $source;
 
    my $label_column = $field->label_column;
+   if(!  $source->has_column($label_column)) {
+       use Data::Dumper;
+       $Data::Dumper::Deparse = 1;
+       MyApp->log->debug($source->name. qq{ doesn't have column "$label_column"});
+       MyApp->log->debug("this coderef is confusing things: " .Dumper($source->can($label_column)));
+   }
    return unless ($source->has_column($label_column) || $source->can($label_column) );
 
    my $active_col = $self->active_column || $field->active_column;
@@ -190,7 +196,8 @@ sub lookup_options
    my @options;
    foreach my $row (@rows)
    {
-      my $label = $row->$label_column;
+# maybe this fixes it? I'm not exactly familiar with the internals.
+      my $label = $row->has_column($label_column) ? $row->$label_column : undef;
       next unless defined $label;   # this means there's an invalid value
       push @options, $row->id, $active_col && !$row->$active_col ? "[ $label ]" : "$label";
    }
