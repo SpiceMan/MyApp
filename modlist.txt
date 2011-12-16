@@ -1,0 +1,464 @@
+Output of perl -d:Modlist script/myapp_server.pl
+================================================
+
+
+AutoLoader             5.71
+B                      1.29
+B::Hooks::EndOfScope   0.09
+CGI::Simple::Cookie   1.113
+CGI::Simple::Util     1.113
+Carp                   1.20
+Carp::Clan             6.04
+Carp::Heavy                
+Catalyst             5.90002
+Catalyst::Action     -1, set by base.pm
+Catalyst::Action::RenderView   0.16
+Catalyst::ActionContainer       
+Catalyst::ClassData        
+Catalyst::Component        
+Catalyst::Component::ApplicationAttribute       
+Catalyst::Controller       
+Catalyst::Devel        1.34
+Catalyst::DispatchType       
+Catalyst::DispatchType::Default       
+Catalyst::DispatchType::Index       
+Catalyst::DispatchType::Path       
+Catalyst::DispatchType::Regex       
+Catalyst::Dispatcher       
+Catalyst::Engine           
+Catalyst::EngineLoader       
+Catalyst::Exception        
+Catalyst::Exception::Basic       
+Catalyst::Exception::Detach       
+Catalyst::Exception::Go       
+Catalyst::Exception::Interface       
+Catalyst::Log              
+Catalyst::Model            
+Catalyst::Model::DBIC::Schema   0.54
+Catalyst::Model::DBIC::Schema::Types       
+Catalyst::Plugin::ConfigLoader   0.30
+Catalyst::Plugin::Static::Simple   0.29
+Catalyst::Plugin::Unicode::Encoding    1.3
+Catalyst::Request          
+Catalyst::Request::Upload       
+Catalyst::Response         
+Catalyst::Runtime    5.90002
+Catalyst::Script::Server       
+Catalyst::ScriptRole       
+Catalyst::ScriptRunner       
+Catalyst::Stats            
+Catalyst::Utils            
+Catalyst::View       -1, set by base.pm
+Catalyst::View::TT     0.37
+CatalystX::Component::Traits   0.16
+Class::Accessor::Grouped 0.10003
+Class::C3::Adopt::NEXT   0.13
+Class::C3::Componentised 1.001000
+Class::Data::Inheritable   0.08
+Class::Load            0.10
+Class::Load::PP        0.10
+Class::MOP           2.0205
+Class::MOP::Attribute 2.0205
+Class::MOP::Class    2.0205
+Class::MOP::Class::Immutable::Trait 2.0205
+Class::MOP::Deprecated 2.0205
+Class::MOP::Instance 2.0205
+Class::MOP::Method   2.0205
+Class::MOP::Method::Accessor 2.0205
+Class::MOP::Method::Constructor 2.0205
+Class::MOP::Method::Generated 2.0205
+Class::MOP::Method::Inlined 2.0205
+Class::MOP::Method::Meta 2.0205
+Class::MOP::Method::Wrapped 2.0205
+Class::MOP::MiniTrait 2.0205
+Class::MOP::Mixin    2.0205
+Class::MOP::Mixin::AttributeCore 2.0205
+Class::MOP::Mixin::HasAttributes 2.0205
+Class::MOP::Mixin::HasMethods 2.0205
+Class::MOP::Module   2.0205
+Class::MOP::Object   2.0205
+Class::MOP::Package  2.0205
+Class::Struct          0.63
+Class::XSAccessor      1.12
+Class::XSAccessor::Heavy   1.12
+Config                     
+Config::Any            0.23
+Config::Any::Base    -1, set by base.pm
+Config::Any::General       
+Config::Any::INI           
+Config::Any::JSON          
+Config::Any::Perl          
+Config::Any::XML           
+Config::Any::YAML          
+Config::General        2.50
+Cwd                    3.36
+DBIx::Class          0.08195
+DBIx::Class::AccessorGroup -1, set by base.pm
+DBIx::Class::Carp          
+DBIx::Class::Componentised -1, set by base.pm
+DBIx::Class::Core    -1, set by base.pm
+DBIx::Class::Cursor  -1, set by base.pm
+DBIx::Class::Exception -1, set by base.pm
+DBIx::Class::InflateColumn       
+DBIx::Class::InflateColumn::DateTime       
+DBIx::Class::Optional::Dependencies       
+DBIx::Class::PK            
+DBIx::Class::PK::Auto       
+DBIx::Class::Relationship       
+DBIx::Class::Relationship::Accessor       
+DBIx::Class::Relationship::Base       
+DBIx::Class::Relationship::BelongsTo       
+DBIx::Class::Relationship::CascadeActions       
+DBIx::Class::Relationship::HasMany       
+DBIx::Class::Relationship::HasOne       
+DBIx::Class::Relationship::Helpers       
+DBIx::Class::Relationship::ManyToMany       
+DBIx::Class::Relationship::ProxyMethods       
+DBIx::Class::ResultClass::HashRefInflator       
+DBIx::Class::ResultSet -1, set by base.pm
+DBIx::Class::ResultSet::RecursiveUpdate   0.24
+DBIx::Class::ResultSetColumn       
+DBIx::Class::ResultSource       
+DBIx::Class::ResultSource::Table       
+DBIx::Class::ResultSourceHandle       
+DBIx::Class::ResultSourceProxy -1, set by base.pm
+DBIx::Class::ResultSourceProxy::Table       
+DBIx::Class::Row     -1, set by base.pm
+DBIx::Class::Schema  -1, set by base.pm
+DBIx::Class::StartupCheck       
+DBIx::Class::Storage -1, set by base.pm
+DBIx::Class::Storage::DBI       
+DBIx::Class::Storage::DBI::Cursor       
+DBIx::Class::Storage::DBIHacks -1, set by base.pm
+DBIx::Class::Storage::TxnScopeGuard       
+Data::Compare          1.22
+Data::Dump             1.19
+Data::Dumper          2.131
+Data::OptList         0.107
+Data::Visitor          0.27
+Data::Visitor::Callback       
+Devel::GlobalDestruction   0.04
+Devel::InnerPackage     0.3
+DynaLoader             1.13
+Encode                 2.42
+Encode::Alias          2.13
+Encode::Config         2.05
+Encode::Encoding       2.05
+English                1.04
+Errno                  1.13
+Eval::Closure          0.06
+Exporter             5.64_03
+Exporter::Heavy      5.64_03
+Fcntl                  1.11
+File::Basename         2.82
+File::Copy             2.21
+File::Find             1.19
+File::Glob             1.12
+File::Path           2.08_01
+File::Spec             3.33
+File::Spec::Functions   3.33
+File::Spec::Unix       3.33
+File::Temp             0.22
+File::stat             1.05
+FileHandle             2.02
+FindBin                1.50
+Getopt::Long           2.38
+Getopt::Long::Descriptive  0.090
+Getopt::Long::Descriptive::Opts  0.090
+Getopt::Long::Descriptive::Usage  0.090
+HTML::Entities         3.68
+HTML::FormHandler    0.35005
+HTML::FormHandler::Base       
+HTML::FormHandler::BuildFields       
+HTML::FormHandler::Field   0.02
+HTML::FormHandler::Field::Result       
+HTML::FormHandler::Fields       
+HTML::FormHandler::I18N       
+HTML::FormHandler::InitResult       
+HTML::FormHandler::Meta::Role       
+HTML::FormHandler::Model       
+HTML::FormHandler::Model::DBIC   0.16
+HTML::FormHandler::Moose       
+HTML::FormHandler::Render::Simple   0.01
+HTML::FormHandler::Result       
+HTML::FormHandler::Result::Role       
+HTML::FormHandler::TraitFor::I18N       
+HTML::FormHandler::TraitFor::Model::DBIC   0.14
+HTML::FormHandler::TraitFor::Types       
+HTML::FormHandler::Traits       
+HTML::FormHandler::Validate       
+HTML::FormHandler::Widget::ApplyRole       
+HTML::FormHandler::Widget::Form::Role::HTMLAttributes       
+HTML::FormHandler::Widget::Form::Simple   0.01
+HTML::Parser           3.68
+HTTP::Body             1.12
+HTTP::Body::MultiPart   1.12
+HTTP::Body::OctetStream   1.12
+HTTP::Body::UrlEncoded   1.12
+HTTP::Body::XForms     1.12
+HTTP::Body::XFormsMultipart   1.12
+HTTP::Date             6.00
+HTTP::Headers          6.00
+HTTP::Message          6.02
+HTTP::Parser::XS       0.14
+HTTP::Request          6.00
+HTTP::Server::PSGI         
+HTTP::Status           6.00
+I18N::LangTags       0.35_01
+I18N::LangTags::Detect   1.05
+IO                   1.25_04
+IO::Dir                1.08
+IO::File               1.15
+IO::Handle             1.31
+IO::Seekable            1.1
+IO::Socket             1.32
+IO::Socket::INET       1.31
+IO::Socket::UNIX       1.23
+List::MoreUtils        0.33
+List::Util             1.23
+Locale::Maketext       1.19
+MIME::Type             1.32
+MIME::Types            1.32
+MRO::Compat            0.11
+Module::Find           0.10
+Module::Pluggable::Object    3.9
+Moose                2.0205
+Moose::Deprecated    2.0205
+Moose::Error::Default 2.0205
+Moose::Error::Util         
+Moose::Exporter      2.0205
+Moose::Meta::Attribute 2.0205
+Moose::Meta::Attribute::Native 2.0205
+Moose::Meta::Attribute::Native::Trait 2.0205
+Moose::Meta::Attribute::Native::Trait::Array 2.0205
+Moose::Meta::Attribute::Native::Trait::Code 2.0205
+Moose::Meta::Attribute::Native::Trait::Hash 2.0205
+Moose::Meta::Class   2.0205
+Moose::Meta::Class::Immutable::Trait 2.0205
+Moose::Meta::Instance 2.0205
+Moose::Meta::Method  2.0205
+Moose::Meta::Method::Accessor 2.0205
+Moose::Meta::Method::Accessor::Native 2.0205
+Moose::Meta::Method::Accessor::Native::Array 2.0205
+Moose::Meta::Method::Accessor::Native::Array::Writer 2.0205
+Moose::Meta::Method::Accessor::Native::Array::clear 2.0205
+Moose::Meta::Method::Accessor::Native::Array::count 2.0205
+Moose::Meta::Method::Accessor::Native::Array::elements 2.0205
+Moose::Meta::Method::Accessor::Native::Array::push 2.0205
+Moose::Meta::Method::Accessor::Native::Array::set 2.0205
+Moose::Meta::Method::Accessor::Native::Code::execute 2.0205
+Moose::Meta::Method::Accessor::Native::Code::execute_method 2.0205
+Moose::Meta::Method::Accessor::Native::Collection 2.0205
+Moose::Meta::Method::Accessor::Native::Hash 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::Writer 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::clear 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::count 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::delete 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::exists 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::get 2.0205
+Moose::Meta::Method::Accessor::Native::Hash::set 2.0205
+Moose::Meta::Method::Accessor::Native::Reader 2.0205
+Moose::Meta::Method::Accessor::Native::Writer 2.0205
+Moose::Meta::Method::Augmented 2.0205
+Moose::Meta::Method::Constructor 2.0205
+Moose::Meta::Method::Delegation 2.0205
+Moose::Meta::Method::Destructor 2.0205
+Moose::Meta::Method::Meta 2.0205
+Moose::Meta::Method::Overridden 2.0205
+Moose::Meta::Mixin::AttributeCore 2.0205
+Moose::Meta::Object::Trait 2.0205
+Moose::Meta::Role    2.0205
+Moose::Meta::Role::Application 2.0205
+Moose::Meta::Role::Application::RoleSummation 2.0205
+Moose::Meta::Role::Application::ToClass 2.0205
+Moose::Meta::Role::Application::ToInstance 2.0205
+Moose::Meta::Role::Application::ToRole 2.0205
+Moose::Meta::Role::Attribute 2.0205
+Moose::Meta::Role::Composite 2.0205
+Moose::Meta::Role::Method 2.0205
+Moose::Meta::Role::Method::Conflicting 2.0205
+Moose::Meta::Role::Method::Required 2.0205
+Moose::Meta::TypeCoercion 2.0205
+Moose::Meta::TypeCoercion::Union 2.0205
+Moose::Meta::TypeConstraint 2.0205
+Moose::Meta::TypeConstraint::Class 2.0205
+Moose::Meta::TypeConstraint::DuckType 2.0205
+Moose::Meta::TypeConstraint::Enum 2.0205
+Moose::Meta::TypeConstraint::Parameterizable 2.0205
+Moose::Meta::TypeConstraint::Parameterized 2.0205
+Moose::Meta::TypeConstraint::Registry 2.0205
+Moose::Meta::TypeConstraint::Role 2.0205
+Moose::Meta::TypeConstraint::Union 2.0205
+Moose::Object        2.0205
+Moose::Role          2.0205
+Moose::Util          2.0205
+Moose::Util::MetaRole 2.0205
+Moose::Util::TypeConstraints 2.0205
+Moose::Util::TypeConstraints::Builtins 2.0205
+MooseX::Emulate::Class::Accessor::Fast 0.00903
+MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor       
+MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute       
+MooseX::Getopt         0.37
+MooseX::Getopt::Basic   0.37
+MooseX::Getopt::GLD    0.37
+MooseX::Getopt::Meta::Attribute   0.37
+MooseX::Getopt::Meta::Attribute::NoGetopt   0.37
+MooseX::Getopt::Meta::Attribute::Trait   0.37
+MooseX::Getopt::Meta::Attribute::Trait::NoGetopt   0.37
+MooseX::Getopt::OptionTypeMap   0.37
+MooseX::Getopt::ProcessedArgv   0.37
+MooseX::MethodAttributes   0.25
+MooseX::MethodAttributes::Inheritable   0.25
+MooseX::MethodAttributes::Role   0.25
+MooseX::MethodAttributes::Role::AttrContainer   0.25
+MooseX::MethodAttributes::Role::AttrContainer::Inheritable   0.25
+MooseX::MethodAttributes::Role::Meta::Class   0.25
+MooseX::MethodAttributes::Role::Meta::Map   0.25
+MooseX::MethodAttributes::Role::Meta::Method   0.25
+MooseX::MethodAttributes::Role::Meta::Method::MaybeWrapped   0.25
+MooseX::MethodAttributes::Role::Meta::Method::Wrapped   0.25
+MooseX::MethodAttributes::Role::Meta::Role   0.25
+MooseX::MethodAttributes::Role::Meta::Role::Application   0.25
+MooseX::Role::Parameterized   0.27
+MooseX::Role::Parameterized::Meta::Role::Parameterizable   0.27
+MooseX::Role::Parameterized::Meta::Role::Parameterized   0.27
+MooseX::Role::Parameterized::Meta::Trait::Parameterized   0.27
+MooseX::Role::Parameterized::Parameters   0.27
+MooseX::Role::WithOverloading   0.09
+MooseX::Role::WithOverloading::Meta::Role   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToClass   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToInstance   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToRole   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::FixOverloadedRefs   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::ToClass   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::ToInstance   0.09
+MooseX::Role::WithOverloading::Meta::Role::Application::ToRole   0.09
+MooseX::Role::WithOverloading::Meta::Role::Composite   0.09
+MooseX::Traits::Pluggable   0.10
+MooseX::Types          0.29
+MooseX::Types::Base    0.29
+MooseX::Types::CheckedUtilExports   0.29
+MooseX::Types::Common::Numeric 0.001003
+MooseX::Types::LoadableClass  0.006
+MooseX::Types::Moose   0.29
+MooseX::Types::TypeDecorator   0.29
+MooseX::Types::UndefinedType   0.29
+MooseX::Types::Util    0.29
+MyApp                  0.01
+MyApp::Controller::Root       
+MyApp::DB                  
+MyApp::DB::Result::Article       
+MyApp::DB::Result::ArticleSection       
+MyApp::DB::Result::Section       
+MyApp::Form::Article       
+MyApp::Model::DB           
+MyApp::View::Web           
+NEXT                   0.65
+POSIX                  1.24
+Package::DeprecationManager   0.11
+Package::Stash         0.32
+Package::Stash::XS     0.25
+Params::Util           1.04
+Params::Validate       1.00
+Params::ValidateXS         
+Path::Class            0.24
+Path::Class::Dir       0.24
+Path::Class::Entity    0.24
+Path::Class::File      0.24
+Plack                0.9982
+Plack::Component           
+Plack::HTTPParser          
+Plack::Handler::HTTP::Server::PSGI       
+Plack::Handler::Standalone       
+Plack::Loader              
+Plack::Middleware          
+Plack::Middleware::Conditional       
+Plack::Middleware::ContentLength       
+Plack::Middleware::IIS6ScriptNameFix       
+Plack::Middleware::LighttpdScriptNameFix       
+Plack::Middleware::ReverseProxy   0.10
+Plack::TempBuffer          
+Plack::Util                
+Plack::Util::Accessor       
+Pod::Escapes           1.04
+Pod::InputObjects      1.31
+Pod::Parser            1.37
+Pod::Select            1.36
+Pod::Simple            3.16
+Pod::Simple::BlackBox   3.16
+Pod::Simple::LinkSection   3.16
+Pod::Text              3.15
+Pod::Usage             1.36
+Scalar::Util           1.23
+SelectSaver            1.02
+SelfLoader             1.18
+Socket                 1.94
+Storable               2.30
+String::RewritePrefix  0.006
+Sub::Exporter         0.982
+Sub::Exporter::Util   0.982
+Sub::Identify          0.04
+Sub::Install          0.925
+Sub::Name              0.05
+Symbol                 1.07
+Template               2.22
+Template::Base         2.78
+Template::Config       2.75
+Template::Constants    2.75
+Template::Context      2.98
+Template::Document     2.79
+Template::Exception     2.7
+Template::Filters      2.87
+Template::Plugins      2.77
+Template::Provider     2.94
+Template::Service       2.8
+Template::Stash        2.91
+Template::Stash::XS        
+Template::Timer        1.00
+Template::VMethods     2.16
+Text::Balanced         2.02
+Text::SimpleTable      2.03
+Tie::Hash              1.04
+Tie::Hash::NamedCapture   0.08
+Tie::ToObject          0.03
+Time::HiRes          1.972101
+Time::Local          1.2000
+Tree::Simple           1.18
+Tree::Simple::Visitor   1.11
+Tree::Simple::Visitor::FindByPath   0.03
+Tree::Simple::Visitor::FindByUID   0.02
+Try::Tiny              0.11
+URI                    1.59
+URI::Escape            3.31
+URI::QueryParam            
+URI::_generic              
+URI::_query                
+URI::_server               
+URI::http                  
+URI::https                 
+Variable::Magic        0.46
+XSLoader               0.13
+aliased                0.30
+attributes             0.14
+base                   2.16
+bytes                  1.04
+constant               1.21
+feature                1.20
+if                   0.0601
+integer                1.00
+lib                    0.63
+locale                 1.00
+metaclass            2.0205
+mro                    1.07
+namespace::autoclean   0.13
+namespace::clean       0.21
+overload               1.13
+parent                0.225
+re                     0.18
+subs                   1.00
+utf8                   1.09
+vars                   1.02
+warnings               1.12
+warnings::register     1.02

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>HFH test</title>
+        <style type="text/css">
+            .label { 
+                float: left;
+                width: 200px;
+                text-align: right;
+            }
+            div {
+                clear: both;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+[% form.render %]
+    </body>
